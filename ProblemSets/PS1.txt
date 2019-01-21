@@ -1,0 +1,23 @@
+hello\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{HW1}
+\author{Amir Tayebi }
+\date{January 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Research Interests}
+
+ When I was in Iran, I was interested in Macroeconomics and especially, Monetary economics. Basically, almost every graduate student in Iran is interested in macro since faculty member's focus is in macro, and more importantly, micro-level data availability is quite limited in Iran's economy. Besides macro, I have always been interested in politics, and at some point in my undergraduate study, I considered changing my major to politics but since the job market situation in politics is not good, I changed my mind. Having passed one course in microeconometric and two courses in development, I got more interested in development and more specifically, political economy which can satisfy my interests in both economics and politics.
+
+I took this course to improve my ability in programming. Right now I have several ideas, but I need to talk to you about them to make sure the are good enough to be final project.
+
+\section{Equations}
+\begin{equation}
+a^2 + b^2 =c^2  
+\end{equation}
+         
+\end{document}
