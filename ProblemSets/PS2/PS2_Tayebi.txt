@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{HW2}
+\author{Amir Tayebi }
+\date{January 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Main Tools of a Data Scientist}
+
+\begin{enumerate}
+	\item Measurement
+	\item Statistical Programming Languages
+	\item Web Scraping
+    \begin{enumerate}
+    	\item How does web scraping work?
+        \item Web scraping in the three data science languages
+    \end{enumerate}
+    \item Handling large data sets
+    \begin{enumerate}
+    	\item RDDs
+        \item SQL
+    \end{enumerate}
+    \item Visualization
+    \begin{enumerate}
+    	\item ggplot2 (R)
+        \item matplotlib (Python)
+        \item Plots.jl (Julia)
+        \item Tableau
+    \end{enumerate}
+\item Modeling
+\end{enumerate}
+
+
+         
+\end{document}
