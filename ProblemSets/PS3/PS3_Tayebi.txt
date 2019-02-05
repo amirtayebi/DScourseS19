@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+
+\title{PS3}
+\author{Amir Tayebi}
+\date{\today} 
+
+\begin{document}
+
+\maketitle
+
+\section{Question 1}
+The file size is 5 MB.
+
+\section{Question 2} It has zero line.
+
+\section{Question 3}
+
+It has 36634 lines.
+
+\end{document}
