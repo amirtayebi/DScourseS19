@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{PS10}
+\author{Amir Tayebi }
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+Table \ref{table:1} represents the results.
+ 
+\begin{table}[h!]
+\centering
+\begin{tabular}{||c c c c||} 
+ \hline
+  Model &  F1 & Gmean & \\ [0.5ex] 
+ \hline\hline
+ Tree & 0.8968421 & 0.6730932 &\\ 
+ Logit & 0.8986422 & 0.6762722 &\\
+ Neural Network & 0.9065614 & 0.7592098 & \\
+ KNN & 0.8985478 & 0.7543678 &\\
+ SVM & 0.9090018 & 0.7539106 &\\
+ Naive Byaes & 0.8825952 & 0.7340489 & \\ [1ex] 
+ \hline
+\end{tabular}
+\caption{Final Results}
+\label{table:1}
+\end{table}
+\end{center}
+
+It would be ideal to run a t-test, but I don't think there is any significant difference between them.
+
+
+
+\end{document}
