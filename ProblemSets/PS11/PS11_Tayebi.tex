@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{4cm}
+        
+        \textbf{The effects of electoral restrictions on the quality of politicians: The case of the U.S}
+        
+        \vspace{6cm}
+        
+        \textbf{Amir Tayebi}
+        
+        \vspace{.5cm}
+        \textbf{Econ5970}
+        \vspace{.5cm}
+        
+        \textbf{\today}
+        
+        \end{center}
+\end{titlepage}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage[authoryear]{natbib}
+
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{2.0}
+\begin{document}
+
+\newpage
+\section*{Introduction}
+
+Politicians are supposed to choose and implement policies. Therefore, the quality of politicians affects what type of policies are selected, how they are carried out, and who is targeted. While in autocracies public servants have no barriers to stay in office for a long time, rulers in democracies are constrained by law and they need to meet certain criteria to become eligible for office. Voters in democracies are affected by decisions made by politicians, and so they need to elect high-qualified ones. Voters also have a wide range of interests and they would like to have all their interests satisfied by policy makers. As a result, there should be a broad representation to meet every one’s interests.
+
+It is ideal to have both quality rulers and broad representation. However, according to most researchers, there is a trade-off between quality and representation. There are several incompetent politicians being elected by people all around the world. From the economics perspective, people face opportunity costs of entering politics, and there is an inverse relationship between opportunity cost and quality of rulers. There is a lower level of opportunity cost for less competent people to enter public life, and as opportunity costs increase, broad presentation might be affected.
+
+People in the United States face a large number of federal, state, and local restrictions to enter public life. Resign to Run law, Dual-Office employment law, term limits, and age of candidacy are some of important barriers against people to become politicians. In this paper, I investigate the effect of those limitations on the quality of politicians. 
+
+
+\section*{Literature Review}
+ 
+Unfortunately, I have not got to this section yet.
+
+
+\section{Data}
+This paper employ individual-level data to investigate the relationship between limitations and quality of politicians.I incorporate several data sets to create the data set of interest. \newline The first piece of data comes from the VoteSmart project's website. They have detailed individual-level data on almost all current state senators and representatives, and some former ones. Since they did not provide any ready-to-use data, I scrapped their website to extract the data.\newline 
+Since I need to control for state and county demographics, I also employ the US census data. The last part of date comes the Book of States provided by The Council of State Governments. It Includes 150 in-depth tables, charts, and figures comparing all 56 states, commonwealths, and territories of the US on all branches of state government, policies, administration, elections, finance, and federal-state relations.
+
+\section*{Methodology}
+I still need to review the literature to specify my model, bu for the sake of this course, I will employ the OLS and Probit regression models. The model can be stated using the following equation:
+
+
+$Quality_i_j_t = \alpha + \beta_1 Gender_i + \beta_2 Party_i + \beta_3 Religion_i + \beta_4 Funding_i + \beta_5 Limitation_i_j_t + \beta_6 C_j_t + Year_t + State_j + \epsilon_i_j_t $
+
+
+
+The dependent variable is an index to measure the quality of individual i in state j during year t, and  $Gender_i$ ,  $Party_i$ ,$Religion_i$ ,  $Funding_i$  are gender, associated party, religion, and funding of individual i, respectively. $C_j_t$ is vector of state demographic variables including population, latitude, longitude, median income level, race, etc.
+
+\section*{Findings}
+While I have some preliminary results, I do not want to present them yet as they do no not make sense. Since the opportunity cost of entering political life is higher for more competent people, I expect to find a negative and significant $\beta_5$.
+
+\section*{Conclusion}
+
+
+\newpage
+
+
+\bibliographystyle{jpe}
+\nocite{*}
+\bibliography{amir.bib}
+
+
+
+\end{document}
